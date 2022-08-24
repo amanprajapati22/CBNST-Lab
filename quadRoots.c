@@ -5,7 +5,7 @@ int main()
     int a , b , c;
     printf("Enter the coefficient of quadratic equation: ");
     scanf("%d %d %d" , &a , &b , &c);
-    printf("Quadratic equation is (%d)x^2 + (%d)x + (%d)",a,b,c);
+    printf("Quadratic equation is (%d)x^2 + (%d)x + (%d) = 0",a,b,c);
     float d = b*b-4*a*c;
     if(d>0)
     {
